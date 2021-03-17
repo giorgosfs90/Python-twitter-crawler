@@ -6,11 +6,11 @@ import jsonpickle
 import os
 from pymongo import MongoClient
 
-consumer_key = "JOXnfbeaHIwNfBqKNpsHWiv50"
-consumer_secret = "JDHoT7iZisUiybSFPn7FmuiwK8gXUWseh7BVJ6HkYdh6HNjAU8"
+consumer_key = ""
+consumer_secret = ""
 
-access_token = "789152547449733120-n1dU0fUg1HwTA7ymAY8l1J0K1A5o1YF"
-access_token_secret = "5v08p8n75bxNfKxP8M3s0mH8smFviNzNNK5z4VBDY1n48"
+access_token = ""
+access_token_secret = ""
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
